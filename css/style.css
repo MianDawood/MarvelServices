@@ -564,9 +564,13 @@ border-radius: 5px;
 
 /* provider */
 
-  section.provide .card__box {
+  section.provide  .card__box {
     padding: 3rem 0rem;
     display: flex;
+}
+.card__box a {
+  font-size: 12px;
+  font-weight: bolder;
 }
 section.provide .card__box .card__img {
   width: 200px;
@@ -576,21 +580,34 @@ section.provide .card__box .card__img img{
 width: 100%;
 }
 section.provide .card__box .card__text h2 {
-  font-size: 25px;
-  margin-bottom: 30px;
+  font-size: 17px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 section.provide .card__box .card__text p {
-font-size: 14px;
+font-size: 13px;
+}
+.maein__ic {
+  background: #29CD2E;
+  padding: 30px 20px;
+  border-radius: 6px;
+}
+pre {
+
+  margin-top: 20px;
+}
+
+.emp__content{
+  padding: 30px 20px;
 }
 .services__iconss__box {
   display: flex;
-  justify-content: center;
+  margin: 35px 45px;
   align-items: center;
 }
 .services__iconss__img {
-  width: 70px;
+  width: 100px;
   height: 70px;
-  border: 1px solid #29CD2E;
   border-radius: 20%;
   padding: 10px;
   margin-right: 10px;
@@ -659,7 +676,7 @@ position: relative;
   content: "";
   width: 80px;
   height: 4px;
-  background: lightgray;
+  background: #29CD2E;
   position: absolute;
   top: 90%;
   left: 0;
@@ -763,6 +780,12 @@ footer {
   .social__foter_icon {
     display: flex;
 }
+.menu__links a {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
 .social__foter_icon a {
   /* padding: 20px; */
   background: white;
@@ -822,7 +845,6 @@ display: flex;
 }
 .contact__iconss__box {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 30px;
 }
 .contact__iconss__img {
@@ -900,9 +922,9 @@ display: flex;
   background-image: url("../images/about_us_img/banner_main.png"); }
 
 .banner__bottom__img .about__banner__bottom {
-  box-shadow: 10px 10px 2px 0px #F37F23;
-  -webkit-box-shadow: 10px 10px 0px 0px #F37F23;
-  -moz-box-shadow: 10px 10px 0px 0px #F37F23; }
+  box-shadow: 10px 10px 2px 0px #29CD2E;
+  -webkit-box-shadow: 10px 10px 0px 0px #29CD2E;
+  -moz-box-shadow: 10px 10px 0px 0px #29CD2E;}
 
 .about__us__services {
   position: relative; }
@@ -914,7 +936,7 @@ display: flex;
     top: 0%;
     width: 100%;
     height: 100%;
-    background-color: #F37F23;
+    background-color: #29CD2E;
     transition: .5s;
     opacity: .9; }
     .about__us__services .about__us__body h4 {
@@ -1688,4 +1710,8 @@ span.my-next-button {
 }
 .banner__bottom__img img {
   margin-bottom: 30px;
+}
+.banner__bottom__img {
+  position: sticky;
+  top: 28%;
 }
